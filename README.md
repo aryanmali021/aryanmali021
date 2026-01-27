@@ -58,12 +58,11 @@ Some of my current repositories include:
 
 ## GitHub Statistics
 
-![Aryan's GitHub Stats](https://github-readme-stats.vercel.app/api?username=aryanmali021&show_icons=true&theme=default)
+![Aryan's GitHub Stats](https://github-readme-stats.vercel.app/api?username=aryanmali021&show_icons=true)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=aryanmali021&layout=compact)
 
 ---
-
 ## Career Objective
 
 To become a skilled Machine Learning / Data Science professional by building strong technical foundations, working on real-world projects, and continuously learning modern AI technologies.
