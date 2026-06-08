@@ -11,7 +11,7 @@ Aspiring Machine Learning Engineer with a strong interest in data analysis, algo
 ---
 
 ## About Me
-
+Portfolio : https://aryanmali-portfolio.onrender.com/
 I am a B.Tech second-year student specializing in Artificial Intelligence and Data Science.  
 I am currently focused on strengthening my foundations in Machine Learning, Data Analysis, and Python, and building practical projects to apply these concepts.
 
