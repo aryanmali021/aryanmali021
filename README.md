@@ -4,9 +4,6 @@
 Aspiring Machine Learning Engineer with a strong interest in data analysis, algorithms, and building real-world AI solutions.
 
 📍 Rajasthan, India  
-📧 aryanmali021@gmail.com  
-🔗 LinkedIn: https://www.linkedin.com/in/aryan-mali-a14015374  
-💻 GitHub: https://github.com/aryanmali021  
 
 ---
 
@@ -74,4 +71,5 @@ To become a skilled Machine Learning / Data Science professional by building str
 
 - Email: aryanmali021@gmail.com  
 - LinkedIn: https://www.linkedin.com/in/aryan-mali-a14015374  
-- GitHub: https://github.com/aryanmali021  
+- GitHub: https://github.com/aryanmali021
+
