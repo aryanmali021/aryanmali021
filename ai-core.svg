@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500">
+<defs>
+ <radialGradient id="g"><stop stop-color="#8b5cf6" stop-opacity=".9"/><stop offset=".45" stop-color="#19d3ff" stop-opacity=".25"/><stop offset="1" stop-color="#07111f" stop-opacity="0"/></radialGradient>
+ <filter id="blur"><feGaussianBlur stdDeviation="8"/></filter>
+ <style>
+ .orbit{fill:none;stroke:#19d3ff;stroke-width:2;opacity:.6}
+ .spin{transform-origin:450px 250px;animation:spin 9s linear infinite}
+ .spin2{transform-origin:450px 250px;animation:spin 13s linear infinite reverse}
+ .pulse{animation:pulse 2s ease-in-out infinite}
+ @keyframes spin{to{transform:rotate(360deg)}}
+ @keyframes pulse{50%{r:115;opacity:.45}}
+ text{font-family:monospace}
+ </style>
+</defs>
+<rect width="900" height="500" rx="22" fill="#050b16" stroke="#203b63"/>
+<circle cx="450" cy="250" r="190" fill="url(#g)" filter="url(#blur)"/>
+<circle class="pulse" cx="450" cy="250" r="95" fill="#101c35" stroke="#8b5cf6" stroke-width="3"/>
+<text x="450" y="240" text-anchor="middle" fill="#fff" font-size="30">AI CORE</text>
+<text x="450" y="272" text-anchor="middle" fill="#55d9ff" font-size="17">IDEA → CODE → IMPACT</text>
+
+<g class="spin">
+ <ellipse class="orbit" cx="450" cy="250" rx="300" ry="85"/>
+ <circle cx="750" cy="250" r="9" fill="#42f5a7"/>
+ <circle cx="150" cy="250" r="9" fill="#ff9d3d"/>
+</g>
+<g class="spin2">
+ <ellipse class="orbit" cx="450" cy="250" rx="85" ry="300"/>
+ <circle cx="450" cy="-50" r="9" fill="#8b5cf6"/>
+ <circle cx="450" cy="550" r="9" fill="#19d3ff"/>
+</g>
+
+<g fill="#dce9ff" font-size="18">
+<text x="55" y="65">REACT</text><text x="730" y="65">AI / ML</text>
+<text x="55" y="450">PYTHON</text><text x="745" y="450">SUPABASE</text>
+</g>
+<text x="450" y="480" text-anchor="middle" fill="#6885a8" font-size="14">ARYAN MALI • DEVELOPER SYSTEM ONLINE</text>
+</svg>

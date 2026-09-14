@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430">
+<defs>
+  <linearGradient id="bg" x1="0" x2="1">
+    <stop offset="0" stop-color="#07111f"/>
+    <stop offset="1" stop-color="#101a38"/>
+  </linearGradient>
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="4" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <style>
+    .txt{font-family:monospace;font-size:24px}
+    .cursor{animation:blink 1s steps(2,start) infinite}
+    .scan{animation:scan 4s linear infinite}
+    @keyframes blink{50%{opacity:0}}
+    @keyframes scan{from{transform:translateY(0)}to{transform:translateY(390px)}}
+  </style>
+</defs>
+<rect width="1200" height="430" rx="22" fill="url(#bg)" stroke="#19d3ff" stroke-width="2"/>
+<circle cx="30" cy="28" r="7" fill="#ff5f56"/><circle cx="52" cy="28" r="7" fill="#ffbd2e"/><circle cx="74" cy="28" r="7" fill="#27c93f"/>
+<text x="105" y="36" fill="#8aa2c8" class="txt" font-size="18">aryan@github — profile initialization</text>
+
+<g class="txt">
+<text x="42" y="90" fill="#42f5a7">&gt; aryan@github:~$ initialize_profile</text>
+<text x="42" y="130" fill="#dce9ff">[✓] Loading profile...</text>
+<text x="42" y="165" fill="#dce9ff">[✓] Connecting to GitHub...</text>
+<text x="42" y="200" fill="#dce9ff">[✓] Fetching repositories...</text>
+<text x="42" y="235" fill="#dce9ff">[✓] Detecting tech stack...</text>
+<text x="42" y="270" fill="#dce9ff">[✓] Starting AI core...</text>
+<text x="42" y="315" fill="#42f5a7">&gt; PROFILE LOADED SUCCESSFULLY</text>
+<text x="42" y="365" fill="#55d9ff" filter="url(#glow)">ARYAN MALI</text>
+<text x="42" y="400" fill="#9eb5d8">BUILD • LEARN • EXPLORE • REPEAT <tspan class="cursor">▌</tspan></text>
+</g>
+<rect class="scan" x="0" y="0" width="1200" height="2" fill="#19d3ff" opacity=".55"/>
+</svg>
